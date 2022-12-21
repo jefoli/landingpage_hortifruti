@@ -394,8 +394,7 @@ body .full-width{
     display: none;
 }
 
-
-@media (max-width: 800px){
+@media (min-width: 430px) and (max-width: 800px){
     
     .intro-content, .grid{
         grid-template-columns: 1fr;
