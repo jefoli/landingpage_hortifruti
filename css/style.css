@@ -189,7 +189,7 @@ p{
 }
 
 
-.menu{ 
+.menu { 
     position: fixed; 
     top: 0;
     left: 0;
@@ -207,12 +207,12 @@ p{
     padding-bottom: 0;
 }
 
-.menu ul{
+.menu ul {
     list-style: none;
     display: flex;
 }
 
-.menu ul li a{ 
+.menu li a { 
     display: block;
     padding: 1.8rem; 
     position:relative; 
@@ -220,18 +220,14 @@ p{
     
 }
 
-.menu h1{
+.menu h1 {
     font-size: 2.3rem;
     color: var(--primary-color);
 }
 
-.menu h1 a{
+.menu h1 a {
     color: inherit;
     text-decoration: none; 
-}
-
-a {
-    text-decoration: none;
 }
 
 .menu ul li a::after{
