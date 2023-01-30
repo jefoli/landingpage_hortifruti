@@ -394,7 +394,6 @@ body .full-width{
     display: none;
 }
 
-
 @media (min-width: 410px) and (max-width: 800px){
     
     .intro-content, .grid{
