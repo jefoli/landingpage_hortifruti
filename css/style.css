@@ -75,9 +75,9 @@ p {
 }
 
 .background-bg {
-  background-color: var(--light-gray-color);
-  color: var(--secondary-color);
-  z-index: 1;
+    background-color: var(--light-gray-color);
+    color: var(--secondary-color);
+    z-index: 1;
 }
 
 .main-content {
@@ -321,6 +321,7 @@ table td {
 
     .menu-content {
         height: 100vh;
+        
     }
 
     .menu {
