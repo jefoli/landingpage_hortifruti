@@ -298,12 +298,12 @@ table td {
 }
 
 
-.main-content1 {
-    min-height: 70vh;
-    display: block;
+.content-contact {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 5rem;
+    text-align: center;
     text-align:right;
-    padding: 80px;
-
 }
 
 .text-history {
@@ -322,7 +322,7 @@ table td {
 
 @media (max-width: 800px){
 
-    .intro-content, .main-content, .main-content1, .grid-one-content, .top3-content {
+    .intro-content, .main-content, .grid-one-content, .top3-content {
         grid-template-columns: 1fr;
     }
 
