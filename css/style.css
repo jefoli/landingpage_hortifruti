@@ -138,11 +138,21 @@ p {
     text-shadow: 0 0 0;
 }
 
+
+.text-history {
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+
 .grid-one-content {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 120vh;
+    text-align: center;
 
 }
 
@@ -153,10 +163,11 @@ p {
 .grid { 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap:var(--gap);
+  gap: 1px;
   text-align: center;
   color: var(--primary-color);
   max-height: 100vh;
+  margin-bottom: 40px;
 }
 
 .social-icons {
@@ -200,16 +211,6 @@ p {
 
 }
 
-.menu h1 {
-    font-size: 2.3rem;
-    color: var(--primary-color);
-}
-
-.menu h1 a {
-    color: inherit;
-    text-decoration: none;
-}
-
 .social-icons-top {
     margin: 15px 10px;
     text-align: center;
@@ -246,12 +247,6 @@ table caption {
     margin-bottom: 10rem;
 }
 
-table td {
-    background:rgba(13, 56, 13, 0.534);
-    color: rgb(3, 3, 3);
-}
-
-
 table td, table th {
     border: 0.1rem solid #bbbeb998;
     text-align: center;
@@ -261,13 +256,9 @@ table td, table th {
 
 table td {
     background:rgba(13, 56, 13, 0.534);
-    color: rgb(0, 0, 0);
+    color: black;
 }
 
-.footer {
-    background-color: var(--secondary-color);
-    text-align: center;
-}
 
 .back-to-top {
     position: fixed;
@@ -305,19 +296,18 @@ table td {
     text-align:right;
 }
 
-.text-history {
-    text-align: center;
-    margin-top: 6rem;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--secondary-color);
-}
-
 .map-config { 
     width: 400px;
     height: 300px;
     border: none;
 }
+
+.footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+
 
 @media (max-width: 800px){
 
@@ -340,6 +330,7 @@ table td {
         bottom: 0;
         text-align: center;
     }
+    
     .menu-content, .menu-content ul {
         flex-direction: column;
         justify-content: center;
