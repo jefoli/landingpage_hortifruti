@@ -1,15 +1,15 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-:root{
+:root {
     --primary-color: rgb(4, 226, 4);
     --secondary-color: rgb(17, 59, 17);
     --dark-gray-color: #a9a9a9;
-    --light-gray-color:#eeeeee;
-    --whitecolor:#ffffff;
+    --light-gray-color: #eeeeee;
+    --whitecolor: #ffffff;
     --gap: 5rem;
 }
 
@@ -24,10 +24,14 @@ body {
     font-size: 2rem;
     color: var(--secondary-color);
     line-height: 1.5;
-    
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -107,7 +111,8 @@ p {
     position: relative;
 }
 
-.intro-text-content, .intro-img {
+.intro-text-content,
+.intro-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -115,9 +120,9 @@ p {
 }
 
 .intro-text-content {
-   margin-bottom: 5rem;
-   text-transform: uppercase;
-   line-height: 1.2;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
 }
 
 
@@ -127,7 +132,8 @@ p {
     margin-top: 1px;
 }
 
-.intro-img img, .intro-img svg {
+.intro-img img,
+.intro-img svg {
     max-width: 100%;
     height: auto;
 }
@@ -141,7 +147,7 @@ p {
 
 .menu-content {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding-top: 0;
     padding-bottom: 0;
@@ -156,7 +162,7 @@ p {
 .menu li a {
     display: block;
     padding: 1.8rem;
-    position:relative;
+    position: relative;
     color: var(--secondary-color);
 
 }
@@ -180,7 +186,7 @@ p {
 
 
 .menu ul li a::after {
-    content:'';
+    content: '';
     position: absolute;
     bottom: 1rem;
     left: 50%;
@@ -230,24 +236,23 @@ p {
     margin-bottom: 1rem;
 }
 
-.grid { 
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
-  color: var(--primary-color);
-  max-height: 100vh;
-  justify-content: center;
-  max-width: 100%;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    color: var(--primary-color);
+    max-height: 100vh;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .grid p {
-    margin-bottom:20px;
+    margin-bottom: 20px;
     text-align: center;
-
 }
 
 .social-icons {
-    margin:40px;
+    margin: 40px;
     font-size: 60px;
     text-align: center;
     color: var(--primary-color);
@@ -260,7 +265,8 @@ table caption {
     margin-bottom: 10rem;
 }
 
-table td, table th {
+table td,
+table th {
     border: 0.1rem solid #bbbeb998;
     text-align: center;
     padding: 2rem;
@@ -268,7 +274,7 @@ table td, table th {
 }
 
 table td {
-    background:rgba(13, 56, 13, 0.534);
+    background: rgba(13, 56, 13, 0.534);
     color: black;
 }
 
@@ -293,7 +299,7 @@ table td {
 }
 
 .social-icons-footer {
-    width:40px;
+    width: 40px;
     font-size: 30px;
     text-align: center;
     color: var(--secondary-color);
@@ -305,10 +311,10 @@ table td {
     max-width: 120rem;
     margin: 0 auto;
     padding: 2rem;
-    text-align:right;
+    text-align: right;
 }
 
-.map-config { 
+.map-config {
     width: 400px;
     height: 300px;
     border: none;
@@ -319,9 +325,12 @@ table td {
     text-align: center;
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
 
-    .intro-content, .main-content, .grid-one-content, .top3-content {
+    .intro-content,
+    .main-content,
+    .grid-one-content,
+    .top3-content {
         grid-template-columns: 1fr;
     }
 
@@ -332,7 +341,7 @@ table td {
         max-height: 100%;
     }
 
-    .grid-one-content{
+    .grid-one-content {
         display: block;
     }
 
@@ -340,14 +349,16 @@ table td {
         bottom: 0;
         text-align: center;
     }
-    .menu-content, .menu-content ul {
+
+    .menu-content,
+    .menu-content ul {
         flex-direction: column;
         justify-content: center;
     }
 
     .menu-content {
         height: 100vh;
-        
+
     }
 
     .menu {
@@ -388,37 +399,35 @@ table td {
 
 
     .menu-spacing {
-        display:none;
+        display: none;
     }
 
     h1 {
         font-size: 3rem;
-      }
+    }
 
-      h2 {
+    h2 {
         font-size: 2.7rem;
-      }
+    }
 
-      h3 {
+    h3 {
         font-size: 2.2rem;
-      }
+    }
 
-      h4 {
+    h4 {
         font-size: 1.75rem;
-      }
+    }
 
-      h5 {
+    h5 {
         font-size: 1.7rem;
-      }
+    }
 
-      h6 {
+    h6 {
         font-size: 1.5rem;
-      }
+    }
 
-      p {
+    p {
         font-size: 1.5rem;
-
-      }
+    }
 
 }
-
