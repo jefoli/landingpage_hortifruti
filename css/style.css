@@ -71,7 +71,7 @@ p {
 }
 
 .main-bg {
-    background-image: url('../img/fresh-fruits-arrangement-top-view.jpg');
+    background-image: url('../img/background.jpg');
     background-size: cover;
     background-position: center center;
     color: var(--primary-color);
